@@ -1,0 +1,66 @@
+.certificates {
+
+    &__title {
+        margin-bottom: 100px;
+    }
+
+    &__img {
+        width: 307px;
+        height: 448px;
+        margin: 50px 50px 50px 50px;
+    }
+}
+
+.alumni {
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__elem {
+        width: 347px;
+        min-height: 550px;
+    }
+
+    &__text {
+        color: #000;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    &__author {
+        display: flex;
+    }
+
+    &__img {
+        width: 165px;
+        height: 165px;
+        border-radius: 100%;
+        margin-right: 15px;
+    }
+
+    &__name {
+        color: #000;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    &__ather {
+        color: #737373;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &__space {
+        margin-bottom: 80px;
+    }
+
+    &__spacer {
+        margin-bottom: 175px;
+    }
+}

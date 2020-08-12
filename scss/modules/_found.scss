@@ -1,0 +1,66 @@
+.found {
+    background: url(../images/Puet_pictures/bg-pattern.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+        text-align: center;
+        font-size: 48px;
+        line-height: 60px;
+        color: #e33c2b;
+        font-weight: 700;
+        padding: 30px 0;
+        position: relative;
+        font-family: Tahoma, sans-serif;
+    }
+
+    &__img {
+        padding-bottom: 50px;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 1.42857143;
+        color: #333;
+
+        &--bold {
+            font-weight: 700;
+        }
+    }
+
+    &__elem {
+
+        &::before {
+            
+            display: inline-block;
+            width: 13px;
+            height: 13px;
+            background: url(/images/Puet_pictures/icon-list-marker.png) center center;
+            margin-right: 5px;
+            content: '';
+        }
+    }
+
+    &__subtitle {
+        color: #e44c36;
+        text-align: left;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.1;
+        margin-bottom: 35px;
+    }
+
+    &__href {
+        text-decoration: none;
+    }
+
+    &__size {
+        font-size: 22px;
+    }
+
+    &__spacer {
+        margin-bottom: 150px;
+    }
+}

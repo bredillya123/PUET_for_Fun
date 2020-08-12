@@ -1,0 +1,25 @@
+// Base
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_reset";
+
+// Layout
+@import "layout/_general";
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Page styles
+@import "modules/_header";
+@import "modules/_home";
+@import "modules/_news";
+@import "modules/_about";
+@import "modules/_courses";
+@import "modules/_apply";
+@import "modules/_certificates";
+@import "modules/_footer";
+@import "modules/_found";
+@import "modules/_faq";
+@import "modules/_contacts";
+@import "modules/_form";
+

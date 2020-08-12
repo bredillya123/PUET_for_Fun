@@ -1,0 +1,135 @@
+.about {
+    margin-bottom: 70px;
+
+    &__container {
+        width: 100%;
+        max-width: 900px;
+        background-color: #1f4670;
+        padding: 20px 0;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    &__block {
+        display: flex;
+        padding-left: 40px;
+        color: #fff;
+        margin-bottom: 20px;
+
+        &--red {
+            padding-left: 15px;
+        }
+
+        &--direction {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__elem--left {
+        width: 355px;
+        text-align: left;
+    }
+
+    &__title {
+        background-color: #e75546;
+        padding: 0 0 0 10px;
+        font-weight: 700;
+        font-size: x-large;
+    }
+
+    &__sub-title {
+        margin-top: 20px;
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+
+    &__elem--right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__image {
+        margin-left: 50px;
+    }
+
+    &__text {
+        margin-left: 20px;
+        width: 385px;
+
+        &--r {
+            margin-left: 0px;
+        }
+
+        &--last {
+            width: auto;
+            margin-left: 11px;
+        }
+    }
+
+    &__smalltitle {
+        width: auto;
+        font-weight: 700;
+        font-size: x-large;
+        margin-bottom: 15px;
+
+        &--short {
+            width: 240px;
+        }
+    }
+
+    
+
+
+    &__list {
+        background-color: #e75546;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__cont {
+        width: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    &__part {
+        width: 266px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__titlsoc {
+        text-align: center;
+        font-weight: bolder;
+        padding: 20px;
+        color: #ffffff;
+    }
+
+    &__socials {
+        width: 870px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    &__href {
+        width: 133px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #67b0ff;
+
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

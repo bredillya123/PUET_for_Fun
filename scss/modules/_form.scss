@@ -1,0 +1,90 @@
+.form {
+
+    &__select {        
+        width: 1100px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    &__top {
+        width: 100%;
+        background-color: #0f3f5d;
+        color: #ffffff;
+        font-size: 26px;
+        font-family: serif;
+        font-weight: bolder;
+        padding: 5px 60px;
+    }
+
+    &__main {
+        display: flex;
+        background: #fff;
+        width: 100%;
+        font-size: 22px;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 20px 60px;
+    }
+
+    &__red {
+        color: #bb0000;
+    }
+
+    &__input {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 12px;
+        line-height: 1.42857143;
+        color: #333;
+        font-size: 14px;
+        border: 1px solid black;
+        border-radius: 2%;
+    }
+
+    &__center {
+        margin-left: 25%;
+    }
+
+    &__small {
+        font-size: 14px;
+    }
+
+    &__acord {
+        width: 100%;
+        margin-bottom: 12px;
+        font-size: 24px;
+        border: 1px solid black;
+    }
+
+    &__field {
+        font-weight: normal;
+    }
+
+    &__main--an {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        width: 100%;
+        font-size: 22px;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 20px 60px;
+    }
+
+    &__ser {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__sil {
+        display: flex;
+    }
+
+    &__button {
+        width: 80px;
+        height: 38px;
+        border: 1px solid #000;
+        font-size: 22px;
+        padding: 5px 5px;
+    }
+}
